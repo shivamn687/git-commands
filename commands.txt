@@ -1,7 +1,7 @@
 git init - Initialize or Created an empty git respository in the folder.
 git status - Shows the status.
-git add fileName - To add a file in git respository staging area.
-git add -a - To add all files in git respository staging area.
+git add <fileName> - To add a file in git respository staging area.
+git add --a - To add all files in git respository staging area.
 git commit -m "comment" - To commit or save changes.
-git branch - Shows branches in your git respository.
-git checkout -b newBranchName - Created a new branch or To switch from one branch to another.
+git restore <fileName> - To restore a deleted file.
+git restore --staged <fileName> - To remove/unstage file from git respository.
