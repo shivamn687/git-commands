@@ -1,0 +1,2 @@
+git config --global user.name Shivam
+git config --global user.email shivam@savior.im

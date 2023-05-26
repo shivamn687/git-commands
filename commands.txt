@@ -4,4 +4,18 @@ git add <fileName> - To add a file in git respository staging area.
 git add --a - To add all files in git respository staging area.
 git commit -m "comment" - To commit or save changes.
 git restore <fileName> - To restore a deleted file.
-git restore --staged <fileName> - To remove/unstage file from git respository.
+git checkout <fileName> - To restore file data and matched with committed one.
+git restore --staged <fileName> - To remove/unstage file from git respository which is added to git staging area.
+git revert <commit-id> - To revert changes.
+git checkout -f - To restore all files data and matched with committed one.
+git rm <fileName> - To remove file Permanently.
+
+git branch <branchName> - To create a new branch
+git branch - To show all branches.
+git checkout <branchName> - To switch to another branch.
+git merge <branchName> - To Merge Branch.
+git checkout -b <branchName> - To Create and Switch in a new Branch.
+git push origin master - To push on remote.
+git remote set-url origin git@github.com:shivamn687/git-commands.git
+git remote - To show remote respository.
+git remote -v - To show URL for fetch and push.
