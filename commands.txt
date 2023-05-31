@@ -19,3 +19,5 @@ git push origin master - To push on remote.
 git remote set-url origin git@github.com:shivamn687/git-commands.git
 git remote - To show remote respository.
 git remote -v - To show URL for fetch and push.
+git push --all -u - To push all changes on remote server.
+git clone <URL> - To clone any git repo.
